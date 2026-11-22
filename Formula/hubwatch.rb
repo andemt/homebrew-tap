@@ -2,18 +2,18 @@
 class Hubwatch < Formula
   desc "Local real-time log of everything that happens in your Philips Hue system"
   homepage "https://github.com/andemt/hubwatch"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/andemt/hubwatch/releases/download/v1.0.0/HubWatch-v1.0.0-osx-arm64.zip"
-    sha256 "cc103d664285851214a53f0552f43286656773269d78faabcd1939b97e5c9715"
+    url "https://github.com/andemt/hubwatch/releases/download/v1.0.1/HubWatch-v1.0.1-osx-arm64.zip"
+    sha256 "b82253496dfdc52b4d121d7ec7fc99b286bc28eda19102df3fa0c3866d4bebee"
   end
   on_intel do
-    url "https://github.com/andemt/hubwatch/releases/download/v1.0.0/HubWatch-v1.0.0-osx-x64.zip"
-    sha256 "aafcb0b2586f2ab18797073c28aab8f5130e500af74bb4ad2854c0c4116c7f6a"
+    url "https://github.com/andemt/hubwatch/releases/download/v1.0.1/HubWatch-v1.0.1-osx-x64.zip"
+    sha256 "6ace8edfa3a33f7dfcc2d9b1e50f9084b6a2c1501bff44b8d595817babfcab16"
   end
 
   def install
