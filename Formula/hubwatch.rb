@@ -9,11 +9,11 @@ class Hubwatch < Formula
 
   on_arm do
     url "https://github.com/andemt/hubwatch/releases/download/v1.0.0/HubWatch-v1.0.0-osx-arm64.zip"
-    sha256 "181c2b8cb60f0aabebf510e5ce231cbc33adfc13314d8dcbfa4b4bdd821cc00d"
+    sha256 "cc103d664285851214a53f0552f43286656773269d78faabcd1939b97e5c9715"
   end
   on_intel do
     url "https://github.com/andemt/hubwatch/releases/download/v1.0.0/HubWatch-v1.0.0-osx-x64.zip"
-    sha256 "06c7aa1988ae1d5a1b29abb55e9e123169f6fb2e473a376fc535b5efbd4c9683"
+    sha256 "aafcb0b2586f2ab18797073c28aab8f5130e500af74bb4ad2854c0c4116c7f6a"
   end
 
   def install
